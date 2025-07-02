@@ -47,28 +47,7 @@ Affichez des boutons pour se connecter comme l’un ou l’autre utilisateur. St
 
 ### 4. Intégrer GrowthBook côté frontend
 
-Installez le SDK :
-
-```bash
-npm install @growthbook/growthbook
-```
-
-Configurez-le :
-
-```ts
-import { GrowthBook } from "@growthbook/growthbook";
-
-const gb = new GrowthBook({
-  apiHost: "http://localhost:3000",
-  clientKey: "<clé récupérée>",
-  enableDevMode: true,
-  attributes: {
-    id: user.id, // à mettre à jour après connexion
-  },
-});
-
-gb.loadFeatures();
-```
+Suivez le guide depuis l'interface de growthbook sur localhost:3000
 
 ---
 
